@@ -1,0 +1,43 @@
+*{box-sizing: border-box;}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.child {
+    width: 200px;
+    height: 200px;
+    /* float: left; */
+}
+
+.parent {
+    margin: 50px auto;
+    width: 600px;
+    height: 600px;
+    background-color: black;
+}
+
+#child1 {
+    background-color: red;
+}
+
+#child2 {
+    background-color: blue;
+    float: right;
+}
+
+#child3 {
+    width: 200px;
+    background-color: green;
+    clear: both;
+}
+
+#child4 {
+    background-color: orange;
+}
+
+#child5 {
+    background-color: purple;
+}
+

@@ -1,0 +1,101 @@
+/* using flexbox to handle layout */
+:root {
+    --prim: darkgoldenrod;
+    --sec: blue;
+    --tert: white;
+    --font1: "Bebas Neue", system-ui;
+    --font2:"Quicksand", system-ui;
+}
+
+*{box-sizing: border-box;}
+
+/* tag names */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--tert);
+}
+
+/* class */
+
+.container {
+    margin: 0 auto;
+    width: 94%;
+    border: 1px solid darkgoldenrod;
+}
+
+.form {
+    padding-top: 15px;
+    text-align: right;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.nav-link {
+    color: var(--prim);
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: var(--sec);
+}
+
+.row {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.search-label {
+    display: none;
+}
+
+.section {
+    padding: 20px 0;
+}
+
+/* id */
+
+#block1, #block2 {
+    padding: 0 15px;
+    width: 45%;
+    border: 1px solid green;
+}
+
+#blockText2, #figure1 {
+    width: 45;
+    border: 1px solid green;
+}
+
+#header {
+    width: 100%;
+    padding: 8px 0;
+}
+
+#header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#myName, #topNav, .form {
+    margin: 0;
+    width: 30%;
+    border: 1px solid green;
+}
+
+#myName {
+    color: var(--prim);
+    font-family: var(--font1);
+    font-size: 48px;
+}
+
+
+
+klkjjjlk;jj ojoihhd ufgdrk k;jh;gh sr;h'oiyh;khhcdrtd  ifuflg'jp'ojlmmhgyf dtd r  sdr iu;llkj pjhf ouglkjgipugg lkjgiuygtlkgugfl ygyufytf;igy ;oh igtklg liugtklm 'p-uliugiou' gtstdflg ;k.jh;oih oig hfyjtx kg p  iugyfug lkguyg klkljlkajf lkjjkljsadfj oijioewjf; jpoij ijoieji hfoijdnfhadjfoa;jfowie fd jawof joadof  jsdjfo efja o;jo awoi jf jlskjfjowe fjsf oaweljsaofjoef lkdjs fojwe dj fsad foawe joewj kd foajw efld jfklj saodifj awejfosd jflsaj fjawo  fjieafld fajfowiejf d dfj ,x, aoijldkj xkhfjvnoaiejf jfnakdjoiiewurlkj awaoij weiorpeqo djpqwoaiuef dkjoweijioeheqpi hdsf owejiprqeroija d aopjopwejioua aoijeporaif ojopwfik djfiao wjfeoihpqo fdopjpaojowje oka dlja  o jqpoj aopj fa;sljaksdjpoqeojodjaopi jwejr
